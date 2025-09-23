@@ -30,10 +30,17 @@ body {
 	color: #000;
 	margin-bottom: 0;
 }
+.nav a:hover {
+	color: #000;
+}
 
 .social-link img {
 	width: 20px;
 	height: 20px;
+}
+img.d-block.w-100 {
+	width: 1920px;
+	height: auto;
 }
 #about {
 	display: flex;
@@ -58,7 +65,7 @@ body {
 	z-index: 0;
 }
 .picture img {
-	width: 450px;
+	width: 430px;
 	height: auto;
 }
 #about-me {
@@ -98,6 +105,9 @@ body {
 }
 .nav-pills .nav-link {
 	color: #000
+}
+span.nav-link{
+	cursor: pointer;
 }
 .item-column {
 	position: relative;
@@ -266,6 +276,10 @@ input[type="submit"] {
 	.picture {
 		flex : 2;
 	}
+	.picture img {
+		width: 350px;
+		height: 350px;
+	}
 	#about, #contact .container {
 		align-items: center;
 	}
@@ -287,7 +301,8 @@ input[type="submit"] {
 		width: 50%;
 	}
 	.picture img {
-	width: 300px;
+	width: 250px;
+	height: 250px;
 	}
 	.picture.left::before {
 		width: 100%;
@@ -358,7 +373,8 @@ input[type="submit"] {
 		height: 150px;
 	}
 	.picture img {
-	width: 200px;
+	width: 250px;
+	height: 250px;
 	}
 	#services .container {
 		align-items: center;
@@ -372,8 +388,5 @@ input[type="submit"] {
 	}
 	form {
 		width: 100%;
-	}
-	.picture {
-		width: 80%;
 	}
 }
