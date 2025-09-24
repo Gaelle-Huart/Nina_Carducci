@@ -309,8 +309,8 @@ footer {
 		flex : 2;
 	}
 	.picture img {
-		width: 350px;
-		height: 350px;
+		width: 330px;
+		height: 330px;
 	}
 	#about, #contact .container {
 		align-items: center;
