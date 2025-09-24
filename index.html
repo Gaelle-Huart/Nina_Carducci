@@ -11,7 +11,6 @@
 		<link rel="stylesheet" href="./assets/style.min.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap">
 		<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" crossorigin>
 
 		<meta property="og:title" content="Nina Carducci - Photographe freelance à Bordeaux">
@@ -30,7 +29,7 @@
 		<meta name="twitter:url" content="https://ninacarducci.com/">
 
 		<script src="./assets/bootstrap/bootstrap.bundle.min.js" crossorigin defer></script>
-		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+		<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous" defer></script>
 		<script src="./assets/maugallery.min.js" defer></script>
 		<script src="./assets/scripts.js" defer></script>
 		<script type="application/ld+json">
@@ -41,17 +40,24 @@
 				"jobTitle": "Photographe freelance",
 				"url": "https://www.nina-carducci.com",
 				"image": "./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-lite.webp",
+				"priceRange": "À définir",
 				"priceCurrency": "EUR",
 				"address": {
 					"@type": "PostalAddress",
 					"streetAddress": "68 avenue Alsace-Lorraine",
 					"postalCode": "33200",
 					"addressLocality": "Bordeaux",
+					"addressRegion": "Nouvelle-Aquitaine",
 					"addressCountry": "FR"
 				},
 				"telephone": "+33 5 56 67 78 89",
 				"email": "nina.carducci@gmail.com",
-				"openingHours": "Mo-Fr 10:00-19:00",
+				"openingHoursSpecification": {
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "10:00",
+          "closes": "19:00"
+				},
 				"sameAs": [
 					"https://www.facebook.com/ninacarducci",		
 					"https://www.linkedin.com/in/ninacarducci",
@@ -69,7 +75,7 @@
 				<a href="#gallery">Galerie</a>
 				<a href="#services">Service</a>
 				<a href="#contact">Contact</a>
-				<a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="Instagram"/></a>
+				<a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="Instagram" loading="lazy"/></a>
 			</nav>
 		</header>
 		<main>
@@ -103,7 +109,7 @@
 			</section>
 			<section id="about">
 				<div class="picture left">
-					<img src="./assets/images/nina-lite.webp" alt="">
+					<img src="./assets/images/nina-lite.webp" alt="" loading="lazy">
 				</div>
 				<div id="about-me">
 					<h2 class="about-me__title">A propos de moi</h2>
@@ -111,7 +117,7 @@
 					<p class="about-me__txt">
 						Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers
 						de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
-						C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.
+						C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de la lumière à chaque fois que vous poserez les yeux sur vos photos.
 					</p>
 				</div>
 			</section>
@@ -119,15 +125,15 @@
 				<h2 class="title">Portfolio</h2>
 				<section class="container py-3">
 					<div class="gallery" style="display: none">
-						<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-square.webp" alt="Photo de concert prise de la fosse"/>
-						<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-square.webp" alt="Portrait d'un homme d'affaire en costume"/>
-						<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-square.webp" alt="Photo riante d'une employée de bureau"/>
-						<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-square.webp" alt="Mains d'un couple qui se rejoignent"/>
-						<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-square.webp" alt="Portait d'un homme frappé par le soleil"/>
-						<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-square.webp" alt="Photo d'un couple de mariés"/>
-						<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-square.webp" alt="Portrait d'une jeune femme"/>
-						<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-square.webp" alt="Photo d'un chanteur en concert"/>
-						<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-square.webp" alt="Photo d'une femme riant sur son lieu de travail"/>
+						<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-square.webp" alt="Photo de concert prise de la fosse" loading="lazy"/>
+						<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-square.webp" alt="Portrait d'un homme d'affaire en costume" loading="lazy"/>
+						<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-square.webp" alt="Photo riante d'une employée de bureau" loading="lazy"/>
+						<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-square.webp" alt="Mains d'un couple qui se rejoignent" loading="lazy"/>
+						<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-square.webp" alt="Portait d'un homme frappé par le soleil" loading="lazy"/>
+						<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-square.webp" alt="Photo d'un couple de mariés" loading="lazy"/>
+						<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-square.webp" alt="Portrait d'une jeune femme" loading="lazy"/>
+						<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-square.webp" alt="Photo d'un chanteur en concert" loading="lazy"/>
+						<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-square.webp" alt="Photo d'une femme riant sur son lieu de travail" loading="lazy"/>
 					</div>
 					<div class="quote">
 						<figure>
@@ -149,7 +155,7 @@
 							</p>
 						</div>
 						<div class="service__price">
-							<p class="service__price_euro">350€/demi journée</p>
+							<h4 class="service__price_euro">350€/demi journée</h4>
 							<span class="service__price_info">Matériel, déplacement inclus</span>
 						</div>
 					</div>
@@ -161,7 +167,7 @@
 							</p>
 						</div>
 						<div class="service__price">
-							<p class="service__price_euro">50€/photo</p>
+							<h4 class="service__price_euro">50€/photo</h4>
 							<span class="service__price_info">2 AR par photo</span>
 						</div>
 					</div>
@@ -173,7 +179,7 @@
 							</p>
 						</div>
 						<div class="service__price">
-							<p class="service__price_euro">400€ album A4</p>
+							<h4 class="service__price_euro">400€ album A4</h4>
 							<span class="service__price_info">30 pages recto/verso</span>
 						</div>
 					</div>
@@ -187,26 +193,40 @@
 					<figcaption class="quote__author">- Richard Avedon</figcaption>
 				</figure>
 			</div>
+			<section id="contact">
+				<div class="container">
+					<div class="form-container">
+						<h4 class="contact__title">Une question ? Une demande de devis ?</h4>
+						<p class="contact__subtitle"> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
+						<form action="" method="post">
+							<label for="nom">Nom</label>
+							<input type="text" name="nom" id="nom">
+							<label for="email">Email</label>
+							<input type="email" name="email" id="email">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" cols="30" rows="10"></textarea>
+							<input type="submit" value="Envoyer"/>
+						</form>
+					</div>
+					<div class="picture right">
+						<img src="./assets/images/camera-lite.webp" alt="" loading="lazy">
+					</div>
+				</div>
+			</section>
 		</main>
-		<footer id="contact">
-			<div class="container">
-				<div class="form-container">
-					<h4 class="contact__title">Une question ? Une demande de devis ?</h4>
-					<p class="contact__subtitle"> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
-					<form action="" method="post">
-						<label for="nom">Nom</label>
-						<input type="text" name="nom" id="nom">
-						<label for="email">Email</label>
-						<input type="email" name="email" id="email">
-						<label for="message">Message</label>
-						<textarea name="message" id="message" cols="30" rows="10"></textarea>
-						<input type="submit" value="Envoyer"/>
-					</form>
-				</div>
-				<div class="picture right">
-					<img src="./assets/images/camera-lite.webp" alt="">
-				</div>
+		<footer>
+			<div class="footer__info">
+				<ul>
+					<li>Photographe freelance</li>
+					<li>68 avenue Alsace-Lorraine</li>
+					<li>33200 Bordeaux</li>
+					<li>05 56 67 78 89</li>
+					<li>Lundi au Vendredi, 10h-19h</li>
+				</ul>
 			</div>
+			<div class="footer__copyright">
+        <p>©2025 - Nina Carducci</p>
+      </div>
 		</footer>
 	</body>
 </html>
