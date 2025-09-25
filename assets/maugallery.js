@@ -114,9 +114,11 @@
       }
     },
     openLightBox(element, lightboxId) {
+      let largeSrc = element.attr("src").replace("square", "lite");
       $(`#${lightboxId}`)
         .find(".lightboxImage")
-        .attr("src", element.attr("src"));
+        .attr("src", largeSrc)
+        .attr("alt", element.attr("alt"));
       $(`#${lightboxId}`).modal("toggle");
     },
     prevImage() {
